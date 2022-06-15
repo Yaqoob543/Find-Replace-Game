@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(194, 226, 227) !important;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#output {
+    width: 90%;
+    height: 200px;
+    background-color: white;
+    border: none;
+    margin: 0 auto;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+    color: black;
+    text-align: center;
+    font-size: 22px;
+    padding: 0 6px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
