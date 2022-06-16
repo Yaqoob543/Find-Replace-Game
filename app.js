@@ -12,7 +12,7 @@ function search() {
         swal("You haven't Type any word to replace");
     } else {
         var index = userInput.indexOf(find);
-
+        console.log(index)
         for (var i = 0; i <= userInput.length; i++) {
             if (index !== -1) {
                 userInput = userInput.split(find).join(replace);
